@@ -1,0 +1,56 @@
+
+body{
+    background: rgb(14,27,87);
+    background: linear-gradient(90deg, rgba(14,27,87,1) 0%, rgba(14,27,87,1) 50%, rgba(14,27,87,1) 100%);
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+    border-radius: 8px;
+}
+.header .head-left img{
+    margin-top: 10px;
+    width: 70px;
+    height: 50px;
+}
+.header .head-right h2{
+    font-family: 'Delicious Handrawn', cursive;
+}
+.nav{
+    background-color: rgb(85, 87, 87);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.nav:hover{
+    background-color: transparent;
+    transition: 2s;
+    border: 2px dashed white;
+}
+.nav ul{
+    display: flex;
+    font-size: 25px;
+}
+.nav ul li{
+    padding: 25px;
+    list-style-type: none;
+}
+.nav ul a{
+    text-decoration: none;
+    color: rgb(215, 199, 199);
+}
+.nav ul a:hover{
+    color:white;
+    transition: 0.5s;
+}
+.container {
+    display: flex;
+    margin-top: 80px;
+}
+.cont-right h1{
+    color: white;
+}
+.cont-right{
+    margin-top: 100px;
+}
